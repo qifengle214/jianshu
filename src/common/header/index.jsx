@@ -18,7 +18,7 @@ const Header = (props) => {
         <div className='Hea_mid'>
             <span className='Hea_home'><a href='/'>首页</a></span>
             <span className='Hea_dowApp'><a href='/'>下载App</a></span>
-            <div className={props.searFocus ? 'Hea_focus_search' : 'Hea_search'}>
+            <div className={props.searFocus ? 'Hea_roll Hea_focus_search' : 'Hea_roll Hea_search'}>
                 <input
                     onFocus={props.searchFocus}
                     onBlur={props.searchBlur}
